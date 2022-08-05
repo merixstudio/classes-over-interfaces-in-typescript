@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "target": "es2022",
+    "outDir": "./dist",
+    "rootDir": "./src",
+  },
+  "exclude": [
+    "sample-code/node_modules"
+  ]
+}

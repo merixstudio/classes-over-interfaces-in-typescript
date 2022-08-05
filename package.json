@@ -1,0 +1,16 @@
+{
+  "name": "classes_over_interfaces_typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "start:correct": "npx tsc && node dist/correct",
+    "start:incorrect": "npx tsc && node dist/incorrect"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "axios": "^0.27.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "joi": "^17.6.0"
+  }
+}
